@@ -10,7 +10,7 @@ const stream = new Misskey.Stream(Config.server.origin, { token: Config.server.c
 stream.on('emojiAdded', async event => {
   console.log('emoji Added')
 
-  let text = `なですきーに新しい絵文字が追加されたかも(\`:${event.emoji.name}:)\`\n\n:${event.emoji.name}:`
+  let text = `なですきーに新しい絵文字が追加されたかも(\`:${event.emoji.name}:\`)\n\n:${event.emoji.name}:`
   YAMAG.Misskey.postNote(text, { localOnly: true })
 })
 

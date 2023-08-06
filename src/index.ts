@@ -11,7 +11,7 @@ stream.on('emojiAdded', async event => {
   console.log('emoji Added')
 
   let text = `なですきーに新しい絵文字が追加されたかも(\`:${event.emoji.name}:\`)\n\n:${event.emoji.name}:`
-  YAMAG.Misskey.postNote(text, { visibillity: 'home' })
+  YAMAG.Misskey.postNote(text, { visibility: 'home' })
 })
 
 console.log('stand by...')

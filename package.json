@@ -1,7 +1,7 @@
 {
-  "name": "yamag",
+  "name": "emoji-notifier",
   "version": "1.0.0",
-  "description": "Yet Another Misskey Accuracy Game app",
+  "description": "A simple Misskey Emoji Notifier",
   "main": "index.js",
   "scripts": {
     "start": "node ./dist/index.js",
